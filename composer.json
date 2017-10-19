@@ -18,8 +18,7 @@
         }
     ],
     "require": {
-        "php": "~7.0",
-        "davechild/textstatistics": "1.0.1"
+        "php": "~7.0"
     },
     "require-dev": {
         "phpunit/phpunit" : ">=5.4.3",
@@ -27,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "kdaviesnz\\canonicalsmiles\\": "src"
+            "kdaviesnz\\copyscape\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "kdaviesnz\\canonicalsmiles\\": "tests"
+            "kdaviesnz\\copyscape\\": "tests"
         }
     },
     "scripts": {
